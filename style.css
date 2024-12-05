@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #111;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.welcome-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.welcome-image {
+    background-image: url('path/to/welcome-image.jpg');
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.projects-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.project {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.highlights-section, .metrics-section, .testimonials-section, .contact-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.metric {
+    display: inline-block;
+    margin: 20px;
+}
+
+.metric h3 {
+    font-size: 2em;
+}
+
+.testimonial {
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #111;
+    border: none;
+    color: #fff;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
